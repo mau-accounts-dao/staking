@@ -1,0 +1,28 @@
+# Staking with MAU Accounts Stellar Anchor <https://staking.mauaccounts.net>
+# https://github.com/stellar/stellar-protocol/tree/master/ecosystem
+
+ACCOUNTS=[
+"GDNPGSVJXI64EYQXBYAHQGUFO5LFWZBEPXJAGBM5KO6KSVMITSOHZ26S",
+"GCNHWFUCPMARX5H34RSYO3PQXFKIHCJQ57XHZBE2YY4A57KXBHPPB2G2"
+]
+
+[DOCUMENTATION]
+ORG_NAME="Staking with MAU Accounts DAO"
+ORG_DBA="Staking with MAU Accounts DAO"
+ORG_URL="https://staking.mauaccounts.net"
+ORG_LOGO="https://staking.mauaccounts.net/images/logo.png"
+ORG_DESCRIPTION="Staking tokens not directly issued but operated by MAU Accounts DAO - accounting and non-financial mutual obligations solving solutions distibuted provider"
+ORG_GITHUB="mau-accounts-dao/staking"
+ORG_OFFICIAL_EMAIL="staking@mauaccounts.com"
+ORG_SUPPORT_EMAIL="staking@mauaccounts.com"
+
+[[CURRENCIES]]
+code="STKMAU1"
+issuer="GDNPGSVJXI64EYQXBYAHQGUFO5LFWZBEPXJAGBM5KO6KSVMITSOHZ26S"
+status="live"
+display_decimals=7
+anchor_asset_type="other"
+is_unlimited=true
+name="STKMAU1"
+desc="STKMAU1 is a staking note representing the issuer's obligation to pay daily interest income in the form of USDMAU tokens based on the established annual interest rate. The bearer has the right to apply to the issuer for a reverse exchange of the note in the form of this token for USDMAU tokens in a ratio of 1:1 by requesting a redemption 30 days in advance."
+image="https://staking.mauaccounts.net/images/stkmau1-logo.png"
